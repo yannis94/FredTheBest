@@ -1,0 +1,12 @@
+#joinUs {
+	background-color: rgba(0,0,0,0);
+	color: white;
+	border-color: white;
+	transition: 0.5s;
+}
+
+#joinUs:hover {
+	border-color: lightgrey;
+	background-color: white;
+	color: black;
+}

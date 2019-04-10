@@ -1,0 +1,85 @@
+/*import*/
+@import url("css/background.css");
+@import url("css/button.css");
+@import url("css/design.css");
+@import url("css/mediaQ.css");
+
+body {
+	overflow-x: hidden;
+}
+
+h1 {
+	font-family: 'VT323', monospace;
+}
+h2{
+	font-family: 'Allerta Stencil', sans-serif;
+}
+
+p {
+	font-family: 'Allerta Stencil', sans-serif;
+}
+
+.fa-android {
+	font-size: 4rem;
+	color: #88bf61;
+	transition: 0.5s;
+}
+
+.fa-android:hover {
+	opacity: 0.5;
+}
+
+.fa-app-store {
+	font-size: 4rem;
+	color: #1e78f3;
+	transition: 0.5s;
+}
+
+.fa-app-store:hover {
+	opacity: 0.5;
+}
+
+.fa-snapchat-ghost {
+	font-size: 3rem;
+	transition: 0.5s;
+}
+
+.fa-snapchat-ghost:hover {
+	color: #fbf906;
+}
+
+.fa-facebook-square {
+	font-size: 3rem;
+	transition: 0.5s;
+}
+
+.fa-facebook-square:hover {
+	color: #3b5999;
+}
+
+.fa-instagram {
+	font-size: 3rem;
+	transition: 0.5s;	
+}
+
+.fa-instagram:hover {
+	color: #b44190;
+}
+
+.fa-twitter {
+	font-size: 3rem;
+	transition: 0.5s;	
+}
+
+.fa-twitter:hover {
+	color: #00b1f4;
+}
+
+.fa-twitch {
+	font-size: 3rem;
+	transition: 0.5s;
+}
+
+.fa-twitch:hover {
+	color: #6e259a;
+}

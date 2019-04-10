@@ -1,0 +1,90 @@
+.designForm {
+	height: 400px;
+	width: 30vw;
+	padding-bottom: 20px;
+	margin: 40vh auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.designForm input {
+	font-family: 'VT323', monospace;
+	border-style: none;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.designForm button {
+		font-family: 'Allerta Stencil', sans-serif;
+}
+
+.hop{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 40vh;
+}
+
+.designTop {
+	width: 30vw;
+	height: 50px;
+}
+
+.designTriangle1 {
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 50.0px 50.0px 0;
+	border-color: transparent rgb(108,117,125) transparent transparent;
+}
+
+.designTriangle2 {
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50.0px 50.0px 0 0;
+	border-color: rgb(108,117,125) transparent transparent transparent;
+}
+
+
+.hip{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	bottom: 40vh;
+}
+
+.designBottom {
+	width: 30vw;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.designTriangle3 {
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 50.0px 50.0px;
+	border-color: transparent transparent rgb(108,117,125) transparent;
+}
+
+.designTriangle4 {
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50.0px 0 0 50.0px;
+	border-color: transparent transparent transparent rgb(108,117,125);
+}
+
+.designBg {
+	background-color: rgba(170,170,170,0.8);
+}
+
+

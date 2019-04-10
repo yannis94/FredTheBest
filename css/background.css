@@ -1,0 +1,63 @@
+.background {
+	width: 100vw;
+}
+
+
+.top {
+	height: 85vh;
+	background-image: url('../images/bg1.png');
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.deux {
+	height: 120vh;
+	background-image: url('../images/bg2.jpg');
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0;
+}
+
+.empty {
+	height: 30%;
+}
+
+.trois { 
+	height: 40vh;
+	width: 150vw;
+	position: relative;
+	top: -28vh;
+	transform: skew(0deg, -10deg) translate(-120px);
+	display: flex;
+	align-items: center;
+}
+
+.trois img {
+	transform: skew(0deg, 10deg);
+	margin-left: 50vw;
+}
+
+.quatre {
+	height: 120vh;
+	margin-top: -40vh;
+	background-image: url('../images/bg5.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.cinq {
+	background-image: url('../images/bg6.png');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.fter {
+	height: 20vh;
+}

@@ -1,0 +1,50 @@
+@media (max-width: 780px) {
+	.designForm {
+		height: 70vh;
+		width: 80vw;
+	}
+
+	.designTop {
+	width: 70vw;
+	height: 50px;
+	}
+
+	.designBottom {
+	width: 70vw;
+	}
+
+	.top {
+		height: 40vh;
+		background-image: url('../images/bgR1.jpg');
+		background-size: 100vw;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+
+	.deux {
+		height: 160vh;
+	}
+
+	.quatre {
+		background-image: url('../images/bgR2.jpg');
+		background-size: 100vw 120vh;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+
+	.hop {
+		opacity: 0;
+	}
+
+	.hip {
+		opacity: 0;
+	}
+
+	.designForm {
+		height: 400px;
+		border-radius: 10px;
+		padding: 10px;
+	}
+
+
+}
